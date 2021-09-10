@@ -107,4 +107,16 @@ p{
 .carousel-item {
     padding: 5% 15%;
 }
+/* Pricing Section */
 
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
