@@ -73,3 +73,23 @@ p{
     font-weight: bold;
 }
 
+/* Section-7 The Bootstrap Carousel Part 1 */
+/* Testimonials  */
+
+#testimonials {
+    padding: 5% 15%;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
