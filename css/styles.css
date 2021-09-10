@@ -37,17 +37,23 @@ p{
 }
 .navbar-brand {
     font-family: 'Ubuntu';
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 .nav-item{
     padding: 0 18px;
 }
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: "Montserrat-Light";
+    font-weight: 300;
 }
-
+.title-image {
+    width: 20%;
+    position: absolute;
+    right: 25%;
+    transform: rotate(25deg);
+}
 .download-button {
     margin: 5% 3% 5% 0;
 }
@@ -58,9 +64,7 @@ p{
     position: relative;
     z-index: 1;
 }
-.feature-box {
-    
-}
+
 .icon {
     color: #ef8172;
     margin-bottom: 1rem;
@@ -91,6 +95,7 @@ p{
     font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
+    font-family:"Montserrat-Light" ;
 }
 
 /* Press */
@@ -136,13 +141,12 @@ p{
 }
 
 /* Footer section */
-
 #footer {
-    padding: 7% 15%;
-    
+    margin:50px 0;
 }
 .social-icon{
-    margin: 20px 10px;
+    font-size: 2rem;
+    padding: 10px 20px;
 }
 @media (max-width: 1028px){
     #title{
