@@ -120,3 +120,17 @@ p{
     line-height: 1.5;
     font-weight: bold;
 }
+
+/* CTA*/
+
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
